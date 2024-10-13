@@ -3,7 +3,7 @@
 ## Description
 Text+ is a Chrome extension designed to store and copy prompts and templates with custom descriptions. It provides a simple and efficient way to manage frequently used prompts, making it easier to access and paste them as needed, which is particularly useful for feeding Large Language Models (LLMs), ultimately enhancing your workflow when interacting with AI systems.
 
-(/popup.png)
+![Text+ Popup Screenshot](popup.png)
 
 ## Features
 - Store prompts and templates with custom descriptions.
