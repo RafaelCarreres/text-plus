@@ -12,15 +12,17 @@ Text+ is a Chrome extension designed to store and copy prompts and templates wit
 - Persists data across browser sessions.
 
 ## Installation
-1. Clone this repository.
+1. **Clone this repository.**
    - To clone this repository, you can use the following command in your terminal:
 
     ```bash
     git clone https://github.com/RafaelCarreres/text-plus.git
     ```
-3. Open Chrome and navigate to `chrome://extensions/`
-4. Enable "Developer mode" in the top right corner.
-5. Click "Load unpacked" and select the directory containing the extension files.
+2. **Load the Extension in Chrome:**
+
+    - Open Chrome and navigate to ```chrome://extensions/```
+    - Enable Developer mode by toggling the switch in the top-right corner.
+    - Click "Load unpacked" and select the directory where you cloned the repository.
 
 ## Usage
 1. Click on the Text+ icon in your Chrome toolbar to open the popup.
