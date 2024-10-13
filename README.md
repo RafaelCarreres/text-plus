@@ -16,7 +16,7 @@ Text+ is a Chrome extension designed to store and copy prompts and templates wit
    - To clone this repository, you can use the following command in your terminal:
 
     ```bash
-    git clone https://github.com/RafaelCarreres/prompt-plus.git
+    git clone https://github.com/RafaelCarreres/text-plus.git
     ```
 3. Open Chrome and navigate to `chrome://extensions/`
 4. Enable "Developer mode" in the top right corner.
