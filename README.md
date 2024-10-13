@@ -6,7 +6,7 @@ Text+ is a Chrome extension designed to store and copy prompts and templates wit
 ## Features
 - Store prompts and templates with custom descriptions.
 - Quick copy functionality with a single click.
-- Organize different prompt types (e.g., creative writing,text summarization, step-by-step problem solving).
+- Organize different prompt types (e.g., creative writing, text summarization, step-by-step problem solving).
 - Easy deletion of stored entries.
 - Simple and intuitive user interface.
 - Persists data across browser sessions.
