@@ -1,0 +1,102 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+#entries {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.entry {
+    display: flex;
+    align-items: center; /* This will vertically center the delete button */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.description-btn, .delete-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.description-btn {
+    flex-grow: 1;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.delete-btn {
+    background-color: #ebe9e3;
+    color: grey;
+    width: 25px; /* Reduce this value to make the button smaller */
+    height: 25px; /* Add this to make the button circular */
+    border-radius: 50%; /* This will make the button circular */
+    padding: 0; /* Remove padding */
+    font-size: 12px; /* Reduce font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+
+.description-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.delete-btn:hover {
+    background-color: #dad8d3;
+}
+
+.add-entry {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.add-btn {
+    flex-basis: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+.add-btn:active {
+    transform: scale(0.98);
+}
