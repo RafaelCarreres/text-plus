@@ -16,7 +16,7 @@
 
 
 ## Extension Preview
-![Text+ Extension Interface](12popup.png)
+![Text+ Extension Interface](popup-image.png)
 
 *The **Text+** popup interface, showing stored prompts and fields for adding new ones.*
 
